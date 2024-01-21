@@ -142,3 +142,111 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+/*
+// Destructuring
+
+const book = getBook(3);
+book;
+const { author, title, pages, publicationDate, genres, hasMovieAdaptation } =
+  book;
+const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
+
+// console.log(`author: ${author},\ntitle: ${title},\ngenres: ${genres}`);
+otherGenres;
+
+const newGenres = [...genres, "epic fantansy"];
+newGenres;
+
+const updateBook = {
+  ...book,
+  // Adding a new property
+  hasMovieAdaptationDate: "2001-10-23",
+
+  // Overwriting an existing property
+  pages: 4321,
+};
+updateBook;
+
+// console.log(hasMovieAdaptation && "this book has movie");
+
+// falsy: 0, '', null, undefined
+console.log("jonas");
+
+console.log(true || "somestring");
+console.log(false || "somestring");
+
+console.log(book.translations.spanish);
+
+const spanishTranslation = book.translations.spanish || "NOT TRANSLATED";
+//spanishTranslation;
+
+//console.log(book.reviews.librarything.reviewsCount);
+// const countWrong = book.reviews.librarything.reviewsCount || "no data";
+
+// countWrong;
+
+//Nullish coalescing operator
+// const count = book.reviews.librarything.reviewsCount ?? "no data";
+// count;
+
+
+function getTotalReviewCount(book) {
+  const goodread = book.reviews.goodreads?.reviewsCount ?? 0;
+  const librarything = book.reviews.librarything?.reviewsCount ?? 0;
+  return goodread + librarything;
+}
+
+console.log(getTotalReviewCount(book));
+
+const books = getBooks();
+
+const pagesAllBooks = books.reduce((acc, book) => acc + book.pages, 0);
+pagesAllBooks;
+
+const arr = books;
+const newArr = arr.slice().sort((a, b) => {
+  if (a.title < b.title) return -1;
+  else return 0;
+});
+arr;
+newArr;
+
+// Add a book object to array -------------
+
+const newBook = {
+  id: 6,
+  title: "Harry Potter and the Chamber of Secrets",
+  author: "J. K. Rowling",
+};
+
+const booksAfterAdding = [...books, newBook];
+booksAfterAdding;
+
+// Delete a book -------------
+
+const booksAfterDelete = booksAfterAdding.filter((b) => b.id !== 6);
+booksAfterDelete;
+
+// Update book object in the array -------------
+const booksAfterUpdate = booksAfterDelete.map((book) =>
+  book.id === 1
+    ? {
+        ...book, // spread operator to copy entire object
+        pages: 320,
+      }
+    : book
+);
+
+booksAfterUpdate;
+*/
+
+// ASYNCHRONOUS JAVASCRIPT: PROMISES ---- https://jsonplaceholder.typicode.com/
+
+const getTodos = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+  const data = await res.json();
+  console.log(data);
+  return data;
+};
+const todos = await getTodos();
+console.log(todos);
