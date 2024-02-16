@@ -3,13 +3,16 @@ import PropTypes from "prop-types";
 import Message from "./Message";
 import Spinner from "./Spinner";
 import styles from "./CountryList.module.css";
+import { useCities } from "../contexts/CitiesContext";
 
 CountriesList.propTypes = {
   cities: PropTypes.array,
   isLoading: PropTypes.bool,
 };
 
-export default function CountriesList({ cities, isLoading }) {
+export default function CountriesList() {
+  const { cities, isLoading } = useCities();
+
   if (isLoading) return <Spinner />;
 
   if (!cities.length)

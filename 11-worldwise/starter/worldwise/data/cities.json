@@ -1,64 +1,196 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
+      "cityName": "Tomar",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "date": "2024-02-14T17:47:44.893Z",
+      "notes": "gfds",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "39.65222552756809",
+        "lng": "-8.308402168007587"
       },
-      "id": 73930385
+      "id": 98443198
     },
     {
-      "cityName": "Faro",
+      "cityName": "Almeida",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73912385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "date": "2024-02-15T00:05:50.817Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "40.60606802129261",
+        "lng": "-6.835128266661746"
       },
-      "id": 17806751
+      "id": 98443207
     },
     {
-      "cityName": "Barcelona",
+      "cityName": "Salamanca",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "date": "2024-02-15T00:06:19.915Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "40.95577363092706",
+        "lng": "-5.651933231659542"
       },
-      "id": 17806241
+      "id": 98443208
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Valladolid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-15T00:06:30.958Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "41.655426362497955",
+        "lng": "-4.731795061204113"
       },
-      "id": 98443197
+      "id": 98443209
+    },
+    {
+      "cityName": "Villamuriel de Cerrato",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-15T00:06:37.375Z",
+      "notes": "",
+      "position": {
+        "lat": "41.96724488705813",
+        "lng": "-4.487404134534176"
+      },
+      "id": 98443210
+    },
+    {
+      "cityName": "Burgos",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-15T00:06:40.282Z",
+      "notes": "",
+      "position": {
+        "lat": "42.34394202285728",
+        "lng": "-3.6987686741124475"
+      },
+      "id": 98443211
+    },
+    {
+      "cityName": "Hernani",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-15T00:06:57.624Z",
+      "notes": "",
+      "position": {
+        "lat": "43.263705033273055",
+        "lng": "-1.972221805366923"
+      },
+      "id": 98443212
+    },
+    {
+      "cityName": "Irun",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-15T00:07:05.776Z",
+      "notes": "",
+      "position": {
+        "lat": "43.33287827908722",
+        "lng": "-1.7837736246079452"
+      },
+      "id": 98443213
+    },
+    {
+      "cityName": "Bordeaux",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-15T00:07:24.801Z",
+      "notes": "",
+      "position": {
+        "lat": "44.83040191811479",
+        "lng": "-0.5731875297382351"
+      },
+      "id": 98443214
+    },
+    {
+      "cityName": "Saint-Pierre-des-Corps",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-15T00:07:34.692Z",
+      "notes": "",
+      "position": {
+        "lat": "47.38511080914765",
+        "lng": "0.7176349983777808"
+      },
+      "id": 98443216
+    },
+    {
+      "cityName": "Le Mans",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-15T00:07:40.086Z",
+      "notes": "",
+      "position": {
+        "lat": "48.02273189624601",
+        "lng": "0.21479873454398837"
+      },
+      "id": 98443217
+    },
+    {
+      "cityName": "Rouen",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-15T00:07:52.063Z",
+      "notes": "",
+      "position": {
+        "lat": "49.43917340917489",
+        "lng": "1.1074113427109114"
+      },
+      "id": 98443218
+    },
+    {
+      "cityName": "Calais",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-15T00:08:04.991Z",
+      "notes": "",
+      "position": {
+        "lat": "50.949028521539304",
+        "lng": "1.8722449360832496"
+      },
+      "id": 98443219
+    },
+    {
+      "cityName": "Dover",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-02-15T00:08:16.545Z",
+      "notes": "",
+      "position": {
+        "lat": "51.130705470361995",
+        "lng": "1.3188822279235168"
+      },
+      "id": 98443220
+    },
+    {
+      "cityName": "Canterbury",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-02-15T00:08:24.136Z",
+      "notes": "",
+      "position": {
+        "lat": "51.26784734178895",
+        "lng": "1.0603737744683663"
+      },
+      "id": 98443221
+    },
+    {
+      "cityName": "Poitiers",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-13T01:41:43.000Z",
+      "notes": "",
+      "position": {
+        "lat": "46.578563223394575",
+        "lng": "0.33936794572646983"
+      },
+      "id": 98443222
     }
   ]
 }
