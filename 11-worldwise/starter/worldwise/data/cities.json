@@ -191,6 +191,66 @@
         "lng": "0.33936794572646983"
       },
       "id": 98443222
+    },
+    {
+      "cityName": "Don Benito",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-17T16:17:58.412Z",
+      "notes": "",
+      "position": {
+        "lat": "38.93246365431179",
+        "lng": "-5.903751382797205"
+      },
+      "id": 98443223
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-02-17T16:18:15.879Z",
+      "notes": "",
+      "position": {
+        "lat": "51.47069879005776",
+        "lng": "0.05280819733655573"
+      },
+      "id": 98443224
+    },
+    {
+      "cityName": "Gravesend",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-02-17T16:18:20.527Z",
+      "notes": "",
+      "position": {
+        "lat": "51.42274638979901",
+        "lng": "0.39352047608900437"
+      },
+      "id": 98443225
+    },
+    {
+      "cityName": "Alhambra",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-13T16:18:32.000Z",
+      "notes": "bjnlhjk",
+      "position": {
+        "lat": "38.84645811162545",
+        "lng": "-3.0387115858763223"
+      },
+      "id": 98443226
+    },
+    {
+      "cityName": "Nowogrod Bobrzanski",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-02-17T16:48:04.600Z",
+      "notes": "",
+      "position": {
+        "lat": "51.80492764594486",
+        "lng": "15.187410044305127"
+      },
+      "id": 98443227
     }
   ]
 }

@@ -24,8 +24,7 @@ function City() {
       getCity(id);
       console.log("aqui");
     },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [id]
+    [id, getCity]
   );
 
   const { cityName, emoji, date, notes } = currentCity;
