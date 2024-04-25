@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Tomar",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-02-14T17:47:44.893Z",
-      "notes": "gfds",
-      "position": {
-        "lat": "39.65222552756809",
-        "lng": "-8.308402168007587"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Almeida",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-02-15T00:05:50.817Z",
-      "notes": "",
-      "position": {
-        "lat": "40.60606802129261",
-        "lng": "-6.835128266661746"
-      },
-      "id": 98443207
-    },
-    {
       "cityName": "Salamanca",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -251,6 +227,42 @@
         "lng": "15.187410044305127"
       },
       "id": 98443227
+    },
+    {
+      "cityName": "Souzel",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-04-25T14:26:32.832Z",
+      "notes": "",
+      "position": {
+        "lat": "38.993572058209466",
+        "lng": "-7.668457031250001"
+      },
+      "id": 98443228
+    },
+    {
+      "cityName": "Cabizuela",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-04-25T14:26:36.619Z",
+      "notes": "",
+      "position": {
+        "lat": "40.91351257612758",
+        "lng": "-4.812011718750001"
+      },
+      "id": 98443229
+    },
+    {
+      "cityName": "Beaugas",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-04-01T14:26:46.000Z",
+      "notes": "",
+      "position": {
+        "lat": "44.49650533109348",
+        "lng": "0.6591796875000001"
+      },
+      "id": 98443230
     }
   ]
 }
