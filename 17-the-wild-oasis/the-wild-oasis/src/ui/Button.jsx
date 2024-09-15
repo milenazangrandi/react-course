@@ -1,5 +1,8 @@
 import styled, { css } from "styled-components";
 
+// Define a filter function to exclude specific props
+const filterProps = (prop) => !["variation"].includes(prop);
+
 const sizes = {
   small: css`
     font-size: 1.2rem;
@@ -48,7 +51,9 @@ const variations = {
   `,
 };
 
-const Button = styled.button`
+const Button = styled.button.withConfig({
+  shouldForwardProp: filterProps,
+})`
   border: none;
   border-radius: var(--border-radius-sm);
   box-shadow: var(--shadow-sm);
