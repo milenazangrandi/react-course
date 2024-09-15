@@ -142,6 +142,8 @@ function List({ id, children }) {
 }
 
 function Button({ children, icon, onClick }) {
+  const { close } = useContext(MenusContext);
+
   function handleClick() {
     onClick?.();
     close();
