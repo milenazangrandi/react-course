@@ -1,11 +1,15 @@
 import styled from "styled-components";
+import PropTypes from "prop-types";
 import { format, isToday } from "date-fns";
-
 import Tag from "../../ui/Tag";
 import Table from "../../ui/Table";
 
 import { formatCurrency } from "../../utils/helpers";
 import { formatDistanceFromNow } from "../../utils/helpers";
+
+BookingRow.propTypes = {
+  booking: PropTypes.object,
+};
 
 const Cabin = styled.div`
   font-size: 1.6rem;
@@ -36,12 +40,9 @@ const Amount = styled.div`
 
 function BookingRow({
   booking: {
-    id: bookingId,
-    created_at,
     startDate,
     endDate,
     numNights,
-    numGuests,
     totalPrice,
     status,
     guests: { fullName: guestName, email },
