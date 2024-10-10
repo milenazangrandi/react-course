@@ -11,7 +11,7 @@ export function useBooking() {
         data: booking,
         error,
     } = useQuery({
-        queryKey: ['booking'],
+        queryKey: ['booking', bookingId],
         queryFn: () => getBooking(bookingId),
         retry: false, //prevent react query to try to fetch 3 times when doesn't exist
     });
