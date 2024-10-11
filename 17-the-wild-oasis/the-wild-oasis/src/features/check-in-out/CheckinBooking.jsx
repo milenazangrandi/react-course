@@ -36,7 +36,7 @@ function CheckinBooking() {
     const { checkin, isCheckingIn } = useCheckin();
     const { settings, isLoading: isLoadingSettings } = useSettings();
 
-    if (isLoading || isLoadingSettings) return <Spinner />;
+    if (isLoading) return <Spinner />;
 
     const { id: bookingId, guests, totalPrice, numNights, numGuests, hasBreakfast } = booking;
     const optionalBreakfastPrice = settings.breakfastPrice * numNights * numGuests;
@@ -84,7 +84,7 @@ function CheckinBooking() {
                 <Checkbox
                     checked={confirmPaid || isCheckingIn}
                     onChange={() => setConfirmPaid((confirm) => !confirm)}
-                    disabled={confirmPaid || isCheckingIn}
+                    disabled={confirmPaid || isCheckingIn || isLoadingSettings}
                     id="confirm"
                 >
                     I confirm that {guests.fullName} has paid the total amount of{' '}
