@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { useUser } from './useUser';
+import Spinner from '../../ui/Spinner';
 
 const StyledUserAvatar = styled.div`
     display: flex;
@@ -22,7 +23,10 @@ const Avatar = styled.img`
 `;
 
 export default function UserAvatar() {
-    const { user } = useUser();
+    const { user, isLoading } = useUser();
+
+    if (isLoading) return <Spinner />;
+    if (!user || !user.app_metadata) return;
     const { fullName, avatar } = user.user_metadata;
 
     return (
